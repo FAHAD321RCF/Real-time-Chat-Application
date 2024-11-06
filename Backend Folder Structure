@@ -1,0 +1,15 @@
+/chat-app
+   /controllers
+      authController.js
+      chatController.js
+   /models
+      User.js
+      Room.js
+      Message.js
+   /routes
+      authRoutes.js
+      chatRoutes.js
+   /uploads
+   /config
+      db.js
+   server.js
