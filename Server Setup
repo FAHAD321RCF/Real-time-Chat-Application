@@ -1,0 +1,42 @@
+const express = require('express');
+const http = require('http');
+const socketIo = require('socket.io');
+const cors = require('cors');
+const connectDB = require('./config/db');
+const authRoutes = require('./routes/authRoutes');
+const chatRoutes = require('./routes/chatRoutes');
+
+const app = express();
+const server = http.createServer(app);
+const io = socketIo(server, {
+  cors: {
+    origin: '*',
+  },
+});
+
+connectDB();
+app.use(cors());
+app.use(express.json());
+
+app.use('/api/auth', authRoutes);
+app.use('/api/chat', chatRoutes);
+
+io.on('connection', (socket) => {
+  console.log('New client connected');
+
+  socket.on('joinRoom', ({ room }) => {
+    socket.join(room);
+  });
+
+  socket.on('chatMessage', ({ room, message }) => {
+    io.to(room).emit('message', message);
+  });
+
+  socket.on('disconnect', () => {
+    console.log('Client disconnected');
+  });
+});
+
+server.listen(5000, () => {
+  console.log('Server running on port 5000');
+});
