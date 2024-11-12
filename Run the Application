@@ -1,0 +1,5 @@
+//Start the backend server:
+node server.js
+//Start the frontend:
+cd frontend
+npm start
