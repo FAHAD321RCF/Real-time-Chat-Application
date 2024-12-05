@@ -11,3 +11,21 @@ Media Sharing: Share images, files, and emojis.
 Responsive Design: Optimized for desktops, tablets, and mobile devices.
 Typing Indicators: See when other users are typing.
 Online Status: Track who is online in real-time.
+
+Technologies Used
+Frontend:
+
+HTML5, CSS3, JavaScript
+Framework: React.js / Vue.js / Angular.js (Choose one)
+State Management: Redux / Vuex (if applicable)
+Backend:
+
+Node.js with Express.js
+WebSocket / Socket.IO for real-time communication
+Database:
+
+MongoDB / Firebase / PostgreSQL (Choose one based on your project)
+Other Tools:
+
+JWT for authentication
+Cloud Storage (AWS S3, Firebase, or similar) for media files
