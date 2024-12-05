@@ -1,7 +1,3 @@
-# Real-time-Chat-Application
-# Overview of Features
-User Authentication: Allow users to sign up and log in with a username and password.
-Create and Join Chat Rooms: Users can create rooms and join them to chat.
-Private Messaging & Group Chats: Users can send private messages to each other or chat in groups.
-Emoji, File, and Image Sharing: Users can send images and files, and use emojis.
-Notifications for New Messages: Notify users when a new message arrives.
+                                                                     Real-Time Chat Application
+
+A real-time chat application built with modern web technologies. This application allows users to communicate instantly through messages, ensuring a seamless and efficient chat experience.
