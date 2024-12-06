@@ -29,3 +29,10 @@ Other Tools:
 
 JWT for authentication
 Cloud Storage (AWS S3, Firebase, or similar) for media files
+
+Installation
+Clone the repository:
+
+git clone https://github.com/your-username/real-time-chat-app.git
+cd real-time-chat-app
+
