@@ -34,3 +34,10 @@ Installation
 Clone the repository:
 
 Install dependencies for both frontend and backend:
+cd frontend
+npm install
+cd ../backend
+npm install
+
+
+
