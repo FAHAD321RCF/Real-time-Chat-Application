@@ -45,7 +45,7 @@ Copy code
 PORT=5000
 MONGO_URI=your_mongo_database_uri
 JWT_SECRET=your_jwt_secret_key
-SOCKET_PORT=your_socket_port
+
 
 
 
