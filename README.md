@@ -33,18 +33,6 @@ Cloud Storage (AWS S3, Firebase, or similar) for media files
 Installation
 Clone the repository:
 
-Install dependencies for both frontend and backend:
-cd frontend
-npm install
-cd ../backend
-npm install
-Configure environment variables:
-Create a .env file in the backend directory and include:
-env
-Copy code
-PORT=5000
-MONGO_URI=your_mongo_database_uri
-JWT_SECRET=your_jwt_secret_key
 
 
 
